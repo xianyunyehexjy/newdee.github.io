@@ -1,0 +1,300 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>cvsba编译（VS2015下的编译与测试） | Newdee&#39;s Blogs</title>
+  <meta name="author" content="Newdee">
+  
+  <meta name="description" content="生无所息">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="cvsba编译（VS2015下的编译与测试）"/>
+  <meta property="og:site_name" content="Newdee&#39;s Blogs"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  <link href="/favicon.png" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="Newdee&#39;s Blogs" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-83650950-1']);
+  
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+</head>
+
+
+<body>
+  <header id="header" class="inner"><div class="alignleft">
+  <h1><a href="/">Newdee&#39;s Blogs</a></h1>
+  <h2><a href="/">I want to fly, over the rainbow so high.</a></h2>
+</div>
+<nav id="main-nav" class="alignright">
+  <ul>
+    
+      <li><a href="/">Home</a></li>
+    
+      <li><a href="/archives">Archives</a></li>
+    
+      <li><a href="/About">About</a></li>
+    
+   <li> <a
+	href="atom.xml">RSS </a> </li>
+  </ul>
+  <div class="clearfix"></div>
+</nav>
+<div class="clearfix"></div>
+</header>
+  <div id="content" class="inner">
+    <div id="main-col" class="alignleft"><div id="wrapper"><article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2016-09-04T15:33:39.000Z"><a href="/2016/09/04/cvsba/">2016-09-04</a></time>
+      
+      
+  
+    <h1 class="title">cvsba编译（VS2015下的编译与测试）</h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p>  由于之前师兄所用的sba（光束法平差）库是10版本编译的，现在我用的是15版本，而且15的版本相对于以前变化不少，之前也参照过网上的一篇13版本的编译过程，不过一直出错，后来调试很长时间，终于生成成功，这里mark一下。<a id="more"></a></p>
+<ol>
+<li>首先下载cvsba的source code：</li>
+</ol>
+<blockquote>
+<p>网址是<a href="https://sourceforge.net/projects/cvsba/files/1.0.0/" target="_blank" rel="external"><em>https://sourceforge.net/projects/cvsba/files/1.0.0/</em></a></p>
+<p>下載的是cvsba-1.0.0，目前依然是这个版本。</p>
+<p>然后解压放到对应目录文件夹，依个人喜好。我的是E:\cvsba-1.0.0</p>
+</blockquote>
+<ol>
+<li>编译</li>
+</ol>
+<blockquote>
+<p>这里需要一些工具，cmake自然不用多说，还有opencv的依赖，所以事先需要下载opencv，这个不做过多赘述。</p>
+<p>我这里使用的cmake版本是3.6.1</p>
+<p>然后打开cmake，选择源文件夹和输出文件夹，尽量不要是一个，方便一点可以在E:\cvsba-1.0.0目录下再建一个bulid文件夹存放。</p>
+<p>然后config中选择v14，即2015版本。点击确定</p>
+<p>一般会出现error，因为缺少一些lapack的库。由于编译lapack需要用到fortran编译器，这里没有，所以不再编译，直接从网上下载部分库文件，<a href="http://www.netlib.org/clapack/LIB\_WINDOWS/prebuilt\_libraries\_windows.html" target="_blank" rel="external">http://www.netlib.org/clapack/LIB\_WINDOWS/prebuilt\_libraries\_windows.html</a></p>
+<p>下载clapack.lib, BLAS.lib, libf2c.lib共三个文件，放到E:\cvsba-1.0.0目录下。</p>
+<p>然后修改错误，把LAPACK_LIB路径改成刚刚放置的位置，继续config，</p>
+<p>继续修改，把BLAS_LIB路径改成刚刚放置的位置，继续config，</p>
+<p>继续修改，把F2C_LIB路径改成刚刚放置的位置，其余的不用管，继续config，</p>
+<p>编译成功。</p>
+<p>然后generate一下。</p>
+<p><img src="../../../../images/media/image1.png" width="553" height="855"></p>
+<p>然后用vs2015打开build文件夹下的cvsba.sln</p>
+<p>点击cvsba，然后build，发现很多错误。首先是LIBCMT和MSVCRT的问题，在属性表中修改，debug模式中改为/MTd，release中改为/MT。</p>
+<p>然后重新生成。</p>
+<p>发现错误如下：</p>
+<p><img src="../../../../images/media/image2.png" width="553" height="109"></p>
+<p>原因是没有加如相应的lib, 在程序中增加lib（Link -&gt;input ）附加依赖项 clapack.lib blas.lib libf2c.lib，前面要加其所在文件夹，如E:\cvsba-1.0.0\clapack.lib，E:\cvsba-1.0.0\BLAS.lib，E:\cvsba-1.0.0\libf2c.lib（这是release下面的，debug下添加相应的带d的版本，即E:\cvsba-1.0.0\clapackd.lib，E:\cvsba-1.0.0\BLASd.lib，E:\cvsba-1.0.0\libf2cd.lib）</p>
+<p>然后重新build，还有错误：</p>
+<p><img src="../../../../images/media/image3.png" width="553" height="67"></p>
+<p>原因是15版本现在使用的是内联定义调用许多stdio.h中的函数。解决方法：</p>
+<p>也是在链接中添加相应依赖库：</p>
+<p>legacy_stdio_definitions.lib</p>
+<p>重新build。</p>
+<p><img src="../../../../images/media/image4.png" width="553" height="98"></p>
+<p>出现错误，原因也是VC6的stdio.h中未定义，手动在头文件中加入：</p>
+<p>#ifdef __cplusplus</p>
+<p>extern “C”</p>
+<p>#endif</p>
+<p>FILE __iob_func[3] = { __acrt_iob_func(0), __acrt_iob_func(1), __acrt_iob_func(2) };</p>
+<p><img src="../../../../images/media/image5.png" width="553" height="288"></p>
+<p>继续build</p>
+<p><img src="../../../../images/media/image6.png" width="553" height="130"></p>
+<p>成功。</p>
+<p>但是进入debug中发现只有cvsba.dll文件，没有cvsba.lib文件，原因是cvsba..h里面的class声明少了 __declspec(dllexport) 把它加上去就可以了</p>
+<p><img src="../../../../images/media/image7.png" width="553" height="192"></p>
+<p>Build，</p>
+<p><img src="../../../../images/media/image8.png" width="553" height="302"></p>
+<p>成功</p>
+<p><img src="../../../../images/media/image9.png" width="553" height="167"></p>
+<p>接下来测试生成的lib和dll文件是否完好。</p>
+<p>直接build所有的项目，发现一个问题：</p>
+<p><img src="../../../../images/media/image10.png" width="553" height="63"></p>
+<p>解决方法：</p>
+<p>像该文件中加入#include&lt;time.h&gt;</p>
+<p><img src="../../../../images/media/image11.png" width="553" height="307"></p>
+<p>至此，全部建立完成。</p>
+<p>然后进入生成的文件夹运行，可以用windows的cmd也可以用bash，我这里直接用bash了：</p>
+<p>需要先生成两个文件用于测试：</p>
+<p><img src="../../../../images/media/image12.png" width="470" height="249"></p>
+<p>分别是camsfile和pointsfile，可以自己命名，但用于测试，就随便命名了。</p>
+<p><img src="../../../../images/media/image13.png" width="443" height="254"></p>
+<p>可以看到已经多了两个文件。</p>
+<p>然后运行test_cvsba:</p>
+<p><img src="../../../../images/media/image14.png" width="475" height="263"></p>
+<p>测试成功，表示刚刚生成的cvsba.lib和cvsba.dll是没问题的。</p>
+<p>至此，所有任务已经完成。</p>
+</blockquote>
+
+      
+    </div>
+    <footer>
+      
+        
+  
+  <div class="categories">
+    <a href="/categories/三维重建/">三维重建</a>
+  </div>
+
+        
+  
+  <div class="tags">
+    <a href="/tags/三维重建/">三维重建</a>, <a href="/tags/VS2015/">VS2015</a>, <a href="/tags/cvsba/">cvsba</a>
+  </div>
+
+        
+  <div class="addthis addthis_toolbox addthis_default_style">
+    
+      <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+    
+    
+      <a class="addthis_button_tweet"></a>
+    
+    
+      <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+    
+    
+      <a class="addthis_button_pinterest_pinit" pi:pinit:layout="horizontal"></a>
+    
+    <a class="addthis_counter addthis_pill_style"></a>
+  </div>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js"></script>
+
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+<section id="comment">
+ <!-- Duoshuo Comment BEGIN -->
+<div class="ds-thread"></div>
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"newdee"};
+(function() {
+	var ds = document.createElement('script');
+	ds.type = 'text/javascript';ds.async = true;
+	ds.src = 'http://static.duoshuo.com/embed.js';
+	ds.charset = 'UTF-8';
+	(document.getElementsByTagName('head')[0] 
+	|| document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+</script>
+
+<!-- Duoshuo Comment END -->
+</section>
+
+
+
+
+
+
+</div></div>
+    <aside id="sidebar" class="alignright">
+  
+<div class="widget tag">
+  <h3 class="title">分类</h3>
+  <ul class="entry">
+  
+    <li><a href="/categories/blog/">blog</a><small>1</small></li>
+  
+    <li><a href="/categories/diary/">diary</a><small>8</small></li>
+  
+    <li><a href="/categories/essay/">essay</a><small>12</small></li>
+  
+    <li><a href="/categories/poem/">poem</a><small>17</small></li>
+  
+    <li><a href="/categories/三维重建/">三维重建</a><small>1</small></li>
+  
+  </ul>
+</div>
+
+
+  
+<div class="widget tagcloud">
+  <h3 class="title">标签云</h3>
+  <div class="entry">
+    <a href="/tags/VS2015/" style="font-size: 10px;">VS2015</a> <a href="/tags/cvsba/" style="font-size: 10px;">cvsba</a> <a href="/tags/helloworld/" style="font-size: 10px;">helloworld</a> <a href="/tags/myfirst/" style="font-size: 10px;">myfirst</a> <a href="/tags/三维重建/" style="font-size: 10px;">三维重建</a> <a href="/tags/实习日志/" style="font-size: 15px;">实习日志</a> <a href="/tags/心情/" style="font-size: 20px;">心情</a> <a href="/tags/怀古/" style="font-size: 12.5px;">怀古</a> <a href="/tags/日常/" style="font-size: 17.5px;">日常</a> <a href="/tags/海贼/" style="font-size: 10px;">海贼</a>
+  </div>
+</div>
+
+
+  <div class="search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="搜索">
+    <input type="hidden" name="q" value="site:newdee.cf">
+  </form>
+</div>
+
+  
+  <div class="widget tag">
+    <h3 class="title">年轮印记</h3>
+    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">2016/09</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">2015/12</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/03/">2015/03</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/11/">2014/11</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">2014/09</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">2014/08</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">2014/07</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/01/">2014/01</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/10/">2013/10</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/09/">2013/09</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/08/">2013/08</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/07/">2013/07</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/06/">2013/06</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/04/">2013/04</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/01/">2013/01</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/09/">2012/09</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/03/">2012/03</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/12/">2011/12</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/11/">2011/11</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/10/">2011/10</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/06/">2011/06</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/01/">2011/01</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2010/12/">2010/12</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2010/11/">2010/11</a><span class="archive-list-count">1</span></li></ul>
+  </div>
+
+
+
+  <div class="widget tag">
+<h3 class="title">友情链接</h3>
+<ul class="entry">
+<li><a href="http://facebook.com/whatste" title="Newdee's Facebook">My Facebook</a></li>
+</ul>
+</div>
+
+
+  <iframe width="100%" height="75" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=75&fansRow=2&ptype=1&speed=0&skin=5&isTitle=0&noborder=0&isWeibo=0&isFans=0&uid=2757363645&verifier=0fc76525&colors=d6f3f7,151943,666666,0082cb,ecfbfd&dpc=1"></iframe>
+
+</aside>
+    <div class="clearfix"></div>
+  </div>
+  <footer id="footer" class="inner"><div class="alignleft">
+  
+  &copy; 2016 Newdee
+  
+</div>
+<div class="clearfix"></div></footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+</body>
+</html>
+
+<a href="https://github.com/newdee"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/c6286ade715e9bea433b4705870de482a654f78a/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f77686974655f6666666666662e706e67" alt="To GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_white_ffffff.png"></a>	

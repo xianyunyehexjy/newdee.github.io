@@ -34,11 +34,11 @@
       <category term="笔记" scheme="http://newdee.cf/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="markdown" scheme="http://newdee.cf/tags/markdown/"/>
-    
       <category term="mathjax" scheme="http://newdee.cf/tags/mathjax/"/>
     
       <category term="latex" scheme="http://newdee.cf/tags/latex/"/>
+    
+      <category term="markdown" scheme="http://newdee.cf/tags/markdown/"/>
     
       <category term="hexo" scheme="http://newdee.cf/tags/hexo/"/>
     

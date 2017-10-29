@@ -4,6 +4,100 @@
 
     
   <url>
+    <loc>http://newdee.cf/posts/f3656e8e/</loc>
+    <lastmod>2017-10-29T05:55:55.240Z</lastmod>
+    <data>
+        <display>
+        <title>Cvsba编译过程（在VS2015下的编译与测试）</title>
+        <pubTime>2016-09-02T11:38:16.000Z</pubTime>
+        
+        <tag>三维重建</tag>
+         
+        <tag>VS2015</tag>
+         
+         
+           
+             
+              <breadCrumb title="笔记" url="http://newdee.cf/categories/%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://newdee.cf/posts/6ed4d3bc/</loc>
+    <lastmod>2017-10-29T05:54:44.912Z</lastmod>
+    <data>
+        <display>
+        <title>建站，阁子记</title>
+        <pubTime>2016-09-04T15:09:52.000Z</pubTime>
+        
+        <tag>myfirst</tag>
+         
+        <tag>helloworld</tag>
+         
+        <tag>建站</tag>
+         
+         
+           
+             
+              <breadCrumb title="博客" url="http://newdee.cf/categories/%E5%8D%9A%E5%AE%A2/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://newdee.cf/posts/3c4e255/</loc>
+    <lastmod>2017-10-29T05:54:27.532Z</lastmod>
+    <data>
+        <display>
+        <title>FFmpeg常用命令</title>
+        <pubTime>2017-08-19T07:24:01.000Z</pubTime>
+        
+        <tag>ubuntu</tag>
+         
+        <tag>ffmpeg</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="http://newdee.cf/categories/Linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://newdee.cf/posts/b9c74ed9/</loc>
+    <lastmod>2017-10-29T05:54:13.644Z</lastmod>
+    <data>
+        <display>
+        <title>Mathjax的LaTex公式语法</title>
+        <pubTime>2017-10-21T06:09:55.000Z</pubTime>
+        
+        <tag>mathjax</tag>
+         
+        <tag>latex</tag>
+         
+        <tag>markdown</tag>
+         
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="博客" url="http://newdee.cf/categories/%E5%8D%9A%E5%AE%A2/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://newdee.cf/posts/bfb99b1f/</loc>
     <lastmod>2017-10-29T05:48:41.045Z</lastmod>
     <data>
@@ -169,32 +263,6 @@
     </url>
 
     
-  <url>
-    <loc>http://newdee.cf/posts/b9c74ed9/</loc>
-    <lastmod>2017-10-27T08:29:21.023Z</lastmod>
-    <data>
-        <display>
-        <title>Mathjax的LaTex公式语法</title>
-        <pubTime>2017-10-21T06:09:55.000Z</pubTime>
-        
-        <tag>mathjax</tag>
-         
-        <tag>latex</tag>
-         
-        <tag>markdown</tag>
-         
-        <tag>hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="笔记" url="http://newdee.cf/categories/%E7%AC%94%E8%AE%B0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
     
   <url>
     <loc>http://newdee.cf/posts/6d87f1ac/</loc>
@@ -267,30 +335,6 @@
 
     
   <url>
-    <loc>http://newdee.cf/posts/6ed4d3bc/</loc>
-    <lastmod>2017-10-13T06:11:22.940Z</lastmod>
-    <data>
-        <display>
-        <title>建站，阁子记</title>
-        <pubTime>2016-09-04T15:09:52.000Z</pubTime>
-        
-        <tag>myfirst</tag>
-         
-        <tag>helloworld</tag>
-         
-        <tag>建站</tag>
-         
-         
-           
-             
-              <breadCrumb title="笔记" url="http://newdee.cf/categories/%E7%AC%94%E8%AE%B0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://newdee.cf/posts/dfc9d3fd/</loc>
     <lastmod>2017-10-13T05:30:03.733Z</lastmod>
     <data>
@@ -332,50 +376,6 @@
     </url>
 
     
-  <url>
-    <loc>http://newdee.cf/posts/f3656e8e/</loc>
-    <lastmod>2017-10-13T04:53:13.271Z</lastmod>
-    <data>
-        <display>
-        <title>Cvsba编译过程（在VS2015下的编译与测试）</title>
-        <pubTime>2016-09-02T11:38:16.000Z</pubTime>
-        
-        <tag>三维重建</tag>
-         
-        <tag>VS2015</tag>
-         
-         
-           
-             
-              <breadCrumb title="博客" url="http://newdee.cf/categories/%E5%8D%9A%E5%AE%A2/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-  <url>
-    <loc>http://newdee.cf/posts/3c4e255/</loc>
-    <lastmod>2017-10-11T09:19:06.793Z</lastmod>
-    <data>
-        <display>
-        <title>FFmpeg常用命令</title>
-        <pubTime>2017-08-19T07:24:01.000Z</pubTime>
-        
-        <tag>ubuntu</tag>
-         
-        <tag>ffmpeg</tag>
-         
-         
-           
-             
-              <breadCrumb title="笔记" url="http://newdee.cf/categories/%E7%AC%94%E8%AE%B0/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>http://newdee.cf/posts/9b44f6cc/</loc>

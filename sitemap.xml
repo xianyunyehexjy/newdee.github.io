@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://newdee.cf/About/index.html</loc>
+    
+    <lastmod>2017-10-30T04:18:31.120Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://newdee.cf/guestbook/index.html</loc>
+    
+    <lastmod>2017-10-30T04:11:55.463Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://newdee.cf/posts/b9c74ed9/</loc>
     
     <lastmod>2017-10-30T02:53:22.602Z</lastmod>
@@ -128,13 +142,6 @@
   </url>
   
   <url>
-    <loc>http://newdee.cf/About/index.html</loc>
-    
-    <lastmod>2017-10-11T11:46:36.600Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://newdee.cf/posts/9b44f6cc/</loc>
     
     <lastmod>2017-10-11T02:08:32.947Z</lastmod>
@@ -156,13 +163,6 @@
   </url>
   
   <url>
-    <loc>http://newdee.cf/posts/1f4b713c/</loc>
-    
-    <lastmod>2017-09-29T13:12:50.928Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://newdee.cf/posts/7bfdba78/</loc>
     
     <lastmod>2017-09-29T13:12:50.928Z</lastmod>
@@ -170,7 +170,7 @@
   </url>
   
   <url>
-    <loc>http://newdee.cf/posts/dc21e617/</loc>
+    <loc>http://newdee.cf/posts/c33ea426/</loc>
     
     <lastmod>2017-09-29T13:12:50.928Z</lastmod>
     
@@ -233,7 +233,7 @@
   </url>
   
   <url>
-    <loc>http://newdee.cf/guestbook/index.html</loc>
+    <loc>http://newdee.cf/posts/a0a14ae3/</loc>
     
     <lastmod>2017-09-29T13:12:50.928Z</lastmod>
     
@@ -296,7 +296,7 @@
   </url>
   
   <url>
-    <loc>http://newdee.cf/posts/a0a14ae3/</loc>
+    <loc>http://newdee.cf/posts/1e8f285/</loc>
     
     <lastmod>2017-09-29T13:12:50.928Z</lastmod>
     
@@ -310,14 +310,14 @@
   </url>
   
   <url>
-    <loc>http://newdee.cf/posts/1e8f285/</loc>
+    <loc>http://newdee.cf/posts/b51bf43/</loc>
     
     <lastmod>2017-09-29T13:12:50.928Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://newdee.cf/posts/b51bf43/</loc>
+    <loc>http://newdee.cf/posts/d7476b87/</loc>
     
     <lastmod>2017-09-29T13:12:50.928Z</lastmod>
     
@@ -331,14 +331,14 @@
   </url>
   
   <url>
-    <loc>http://newdee.cf/posts/e3091d2/</loc>
+    <loc>http://newdee.cf/posts/1f4b713c/</loc>
     
     <lastmod>2017-09-29T13:12:50.928Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://newdee.cf/posts/d7476b87/</loc>
+    <loc>http://newdee.cf/posts/e3091d2/</loc>
     
     <lastmod>2017-09-29T13:12:50.928Z</lastmod>
     
@@ -387,13 +387,6 @@
   </url>
   
   <url>
-    <loc>http://newdee.cf/posts/e091e5ba/</loc>
-    
-    <lastmod>2017-09-29T13:12:50.928Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://newdee.cf/posts/3e23e45/</loc>
     
     <lastmod>2017-09-29T13:12:50.928Z</lastmod>
@@ -401,7 +394,7 @@
   </url>
   
   <url>
-    <loc>http://newdee.cf/posts/5a450135/</loc>
+    <loc>http://newdee.cf/posts/e091e5ba/</loc>
     
     <lastmod>2017-09-29T13:12:50.928Z</lastmod>
     
@@ -415,6 +408,13 @@
   </url>
   
   <url>
+    <loc>http://newdee.cf/posts/5a450135/</loc>
+    
+    <lastmod>2017-09-29T13:12:50.928Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://newdee.cf/appveyor.json</loc>
     
     <lastmod>2017-09-29T13:12:50.928Z</lastmod>
@@ -422,14 +422,14 @@
   </url>
   
   <url>
-    <loc>http://newdee.cf/posts/c33ea426/</loc>
+    <loc>http://newdee.cf/posts/d617d273/</loc>
     
     <lastmod>2017-09-29T13:12:50.928Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://newdee.cf/posts/d617d273/</loc>
+    <loc>http://newdee.cf/posts/dc21e617/</loc>
     
     <lastmod>2017-09-29T13:12:50.928Z</lastmod>
     

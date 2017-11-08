@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://newdee.cf/./404.html</loc>
+    
+    <lastmod>2017-11-08T08:07:04.812Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://newdee.cf/recom/index.html</loc>
     
     <lastmod>2017-11-02T01:06:38.262Z</lastmod>
@@ -159,13 +166,6 @@
     <loc>http://newdee.cf/tags/index.html</loc>
     
     <lastmod>2017-09-29T13:12:50.944Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://newdee.cf/posts/7bfdba78/</loc>
-    
-    <lastmod>2017-09-29T13:12:50.928Z</lastmod>
     
   </url>
   
@@ -450,9 +450,9 @@
   </url>
   
   <url>
-    <loc>http://newdee.cf/./404.html</loc>
+    <loc>http://newdee.cf/posts/7bfdba78/</loc>
     
-    <lastmod>2017-09-29T13:12:50.924Z</lastmod>
+    <lastmod>2017-09-29T13:12:50.928Z</lastmod>
     
   </url>
   

@@ -250,9 +250,9 @@
       <category term="Linux" scheme="http://newdee.cf/categories/Linux/"/>
     
     
-      <category term="ffmpeg" scheme="http://newdee.cf/tags/ffmpeg/"/>
-    
       <category term="ubuntu" scheme="http://newdee.cf/tags/ubuntu/"/>
+    
+      <category term="ffmpeg" scheme="http://newdee.cf/tags/ffmpeg/"/>
     
   </entry>
   

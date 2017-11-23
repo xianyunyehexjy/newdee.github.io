@@ -4,6 +4,32 @@
 
     
   <url>
+    <loc>http://newdee.cf/posts/413bb42a/</loc>
+    <lastmod>2017-11-23T15:04:08.502Z</lastmod>
+    <data>
+        <display>
+        <title>多媒体框架Gstreamer</title>
+        <pubTime>2017-11-23T01:54:51.000Z</pubTime>
+        
+        <tag>TX1</tag>
+         
+        <tag>Gstreamer</tag>
+         
+        <tag>视频处理</tag>
+         
+        <tag>嵌入式开发</tag>
+         
+         
+           
+             
+              <breadCrumb title="TX1入坑" url="http://newdee.cf/categories/TX1%E5%85%A5%E5%9D%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://newdee.cf/posts/6d87f1ac/</loc>
     <lastmod>2017-11-23T11:36:01.736Z</lastmod>
     <data>
@@ -23,32 +49,6 @@
            
              
               <breadCrumb title="博客" url="http://newdee.cf/categories/%E5%8D%9A%E5%AE%A2/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://newdee.cf/posts/413bb42a/</loc>
-    <lastmod>2017-11-23T08:03:07.099Z</lastmod>
-    <data>
-        <display>
-        <title>多媒体框架Gstreamer</title>
-        <pubTime>2017-11-23T01:54:51.000Z</pubTime>
-        
-        <tag>TX1</tag>
-         
-        <tag>Gstreamer</tag>
-         
-        <tag>视频处理</tag>
-         
-        <tag>嵌入式开发</tag>
-         
-         
-           
-             
-              <breadCrumb title="TX1入坑" url="http://newdee.cf/categories/TX1%E5%85%A5%E5%9D%91/"/>
           
         </display>
     </data>
@@ -525,6 +525,26 @@
     
     
   <url>
+    <loc>http://newdee.cf/posts/48f0e3fe/</loc>
+    <lastmod>2017-09-29T13:12:50.928Z</lastmod>
+    <data>
+        <display>
+        <title>镜语</title>
+        <pubTime>2016-12-18T15:08:52.000Z</pubTime>
+        
+        <tag>年度总结</tag>
+         
+         
+           
+             
+              <breadCrumb title="呓语" url="http://newdee.cf/categories/%E5%91%93%E8%AF%AD/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://newdee.cf/posts/a0a14ae3/</loc>
     <lastmod>2017-09-29T13:12:50.928Z</lastmod>
     <data>
@@ -547,21 +567,21 @@
 
     
   <url>
-    <loc>http://newdee.cf/posts/7bfdba78/</loc>
+    <loc>http://newdee.cf/posts/1e8f285/</loc>
     <lastmod>2017-09-29T13:12:50.928Z</lastmod>
     <data>
         <display>
-        <title>OP，随心谁听</title>
-        <pubTime>2011-11-06T07:17:16.000Z</pubTime>
+        <title>临风添</title>
+        <pubTime>2014-01-10T16:49:46.000Z</pubTime>
         
         <tag>日常</tag>
          
-        <tag>海贼</tag>
+        <tag>心情</tag>
          
          
            
              
-              <breadCrumb title="呓语" url="http://newdee.cf/categories/%E5%91%93%E8%AF%AD/"/>
+              <breadCrumb title="乱体诗" url="http://newdee.cf/categories/%E4%B9%B1%E4%BD%93%E8%AF%97/"/>
           
         </display>
     </data>
@@ -613,21 +633,21 @@
 
     
   <url>
-    <loc>http://newdee.cf/posts/b51bf43/</loc>
+    <loc>http://newdee.cf/posts/5f7ed589/</loc>
     <lastmod>2017-09-29T13:12:50.928Z</lastmod>
     <data>
         <display>
-        <title>离忧</title>
-        <pubTime>2013-10-25T16:55:09.000Z</pubTime>
+        <title>JavaScript学习笔记（一）</title>
+        <pubTime>2016-03-20T12:58:22.000Z</pubTime>
         
-        <tag>日常</tag>
+        <tag>JavaScript</tag>
          
-        <tag>心情</tag>
+        <tag>前端</tag>
          
          
            
              
-              <breadCrumb title="呓语" url="http://newdee.cf/categories/%E5%91%93%E8%AF%AD/"/>
+              <breadCrumb title="笔记" url="http://newdee.cf/categories/%E7%AC%94%E8%AE%B0/"/>
           
         </display>
     </data>
@@ -679,34 +699,12 @@
 
     
   <url>
-    <loc>http://newdee.cf/posts/4e4e3a3d/</loc>
+    <loc>http://newdee.cf/posts/b51bf43/</loc>
     <lastmod>2017-09-29T13:12:50.928Z</lastmod>
     <data>
         <display>
-        <title>实习日志1</title>
-        <pubTime>2013-06-25T10:01:26.000Z</pubTime>
-        
-        <tag>心情</tag>
-         
-        <tag>实习日志</tag>
-         
-         
-           
-             
-              <breadCrumb title="实习日记" url="http://newdee.cf/categories/%E5%AE%9E%E4%B9%A0%E6%97%A5%E8%AE%B0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://newdee.cf/posts/c33ea426/</loc>
-    <lastmod>2017-09-29T13:12:50.928Z</lastmod>
-    <data>
-        <display>
-        <title>回来</title>
-        <pubTime>2017-07-22T04:39:12.000Z</pubTime>
+        <title>离忧</title>
+        <pubTime>2013-10-25T16:55:09.000Z</pubTime>
         
         <tag>日常</tag>
          
@@ -715,7 +713,7 @@
          
            
              
-              <breadCrumb title="杂记" url="http://newdee.cf/categories/%E6%9D%82%E8%AE%B0/"/>
+              <breadCrumb title="呓语" url="http://newdee.cf/categories/%E5%91%93%E8%AF%AD/"/>
           
         </display>
     </data>
@@ -723,12 +721,12 @@
 
     
   <url>
-    <loc>http://newdee.cf/posts/d7476b87/</loc>
+    <loc>http://newdee.cf/posts/4e4e3a3d/</loc>
     <lastmod>2017-09-29T13:12:50.928Z</lastmod>
     <data>
         <display>
-        <title>实习日志2</title>
-        <pubTime>2013-06-26T09:06:29.000Z</pubTime>
+        <title>实习日志1</title>
+        <pubTime>2013-06-25T10:01:26.000Z</pubTime>
         
         <tag>心情</tag>
          
@@ -899,12 +897,34 @@
 
     
   <url>
-    <loc>http://newdee.cf/posts/1e8f285/</loc>
+    <loc>http://newdee.cf/posts/66fca25e/</loc>
     <lastmod>2017-09-29T13:12:50.928Z</lastmod>
     <data>
         <display>
-        <title>临风添</title>
-        <pubTime>2014-01-10T16:49:46.000Z</pubTime>
+        <title>悼亡词</title>
+        <pubTime>2012-03-24T13:48:17.000Z</pubTime>
+        
+        <tag>日常</tag>
+         
+        <tag>心情</tag>
+         
+         
+           
+             
+              <breadCrumb title="乱体诗" url="http://newdee.cf/categories/%E4%B9%B1%E4%BD%93%E8%AF%97/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://newdee.cf/posts/6d156558/</loc>
+    <lastmod>2017-09-29T13:12:50.928Z</lastmod>
+    <data>
+        <display>
+        <title>停调中秋吟</title>
+        <pubTime>2012-09-29T17:49:07.000Z</pubTime>
         
         <tag>日常</tag>
          
@@ -943,12 +963,12 @@
 
     
   <url>
-    <loc>http://newdee.cf/posts/6d156558/</loc>
+    <loc>http://newdee.cf/posts/c33ea426/</loc>
     <lastmod>2017-09-29T13:12:50.928Z</lastmod>
     <data>
         <display>
-        <title>停调中秋吟</title>
-        <pubTime>2012-09-29T17:49:07.000Z</pubTime>
+        <title>回来</title>
+        <pubTime>2017-07-22T04:39:12.000Z</pubTime>
         
         <tag>日常</tag>
          
@@ -957,7 +977,7 @@
          
            
              
-              <breadCrumb title="乱体诗" url="http://newdee.cf/categories/%E4%B9%B1%E4%BD%93%E8%AF%97/"/>
+              <breadCrumb title="杂记" url="http://newdee.cf/categories/%E6%9D%82%E8%AE%B0/"/>
           
         </display>
     </data>
@@ -965,21 +985,43 @@
 
     
   <url>
-    <loc>http://newdee.cf/posts/5f7ed589/</loc>
+    <loc>http://newdee.cf/posts/dc21e617/</loc>
     <lastmod>2017-09-29T13:12:50.928Z</lastmod>
     <data>
         <display>
-        <title>JavaScript学习笔记（一）</title>
-        <pubTime>2016-03-20T12:58:22.000Z</pubTime>
+        <title>等</title>
+        <pubTime>2013-06-12T03:26:04.000Z</pubTime>
         
-        <tag>JavaScript</tag>
+        <tag>日常</tag>
          
-        <tag>前端</tag>
+        <tag>心情</tag>
          
          
            
              
-              <breadCrumb title="笔记" url="http://newdee.cf/categories/%E7%AC%94%E8%AE%B0/"/>
+              <breadCrumb title="呓语" url="http://newdee.cf/categories/%E5%91%93%E8%AF%AD/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://newdee.cf/posts/d7476b87/</loc>
+    <lastmod>2017-09-29T13:12:50.928Z</lastmod>
+    <data>
+        <display>
+        <title>实习日志2</title>
+        <pubTime>2013-06-26T09:06:29.000Z</pubTime>
+        
+        <tag>心情</tag>
+         
+        <tag>实习日志</tag>
+         
+         
+           
+             
+              <breadCrumb title="实习日记" url="http://newdee.cf/categories/%E5%AE%9E%E4%B9%A0%E6%97%A5%E8%AE%B0/"/>
           
         </display>
     </data>
@@ -1002,48 +1044,6 @@
            
              
               <breadCrumb title="呓语" url="http://newdee.cf/categories/%E5%91%93%E8%AF%AD/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://newdee.cf/posts/48f0e3fe/</loc>
-    <lastmod>2017-09-29T13:12:50.928Z</lastmod>
-    <data>
-        <display>
-        <title>镜语</title>
-        <pubTime>2016-12-18T15:08:52.000Z</pubTime>
-        
-        <tag>年度总结</tag>
-         
-         
-           
-             
-              <breadCrumb title="呓语" url="http://newdee.cf/categories/%E5%91%93%E8%AF%AD/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://newdee.cf/posts/179dffb0/</loc>
-    <lastmod>2017-09-29T13:12:50.928Z</lastmod>
-    <data>
-        <display>
-        <title>借月章</title>
-        <pubTime>2013-08-13T17:15:35.000Z</pubTime>
-        
-        <tag>日常</tag>
-         
-        <tag>心情</tag>
-         
-         
-           
-             
-              <breadCrumb title="乱体诗" url="http://newdee.cf/categories/%E4%B9%B1%E4%BD%93%E8%AF%97/"/>
           
         </display>
     </data>
@@ -1095,28 +1095,6 @@
 
     
   <url>
-    <loc>http://newdee.cf/posts/6ad13995/</loc>
-    <lastmod>2017-09-29T13:12:50.928Z</lastmod>
-    <data>
-        <display>
-        <title>寻涯临雪</title>
-        <pubTime>2011-01-04T01:35:40.000Z</pubTime>
-        
-        <tag>日常</tag>
-         
-        <tag>心情</tag>
-         
-         
-           
-             
-              <breadCrumb title="乱体诗" url="http://newdee.cf/categories/%E4%B9%B1%E4%BD%93%E8%AF%97/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://newdee.cf/posts/56ef94c8/</loc>
     <lastmod>2017-09-29T13:12:50.928Z</lastmod>
     <data>
@@ -1132,6 +1110,28 @@
            
              
               <breadCrumb title="随笔" url="http://newdee.cf/categories/%E9%9A%8F%E7%AC%94/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://newdee.cf/posts/6ad13995/</loc>
+    <lastmod>2017-09-29T13:12:50.928Z</lastmod>
+    <data>
+        <display>
+        <title>寻涯临雪</title>
+        <pubTime>2011-01-04T01:35:40.000Z</pubTime>
+        
+        <tag>日常</tag>
+         
+        <tag>心情</tag>
+         
+         
+           
+             
+              <breadCrumb title="乱体诗" url="http://newdee.cf/categories/%E4%B9%B1%E4%BD%93%E8%AF%97/"/>
           
         </display>
     </data>
@@ -1227,28 +1227,6 @@
 
     
   <url>
-    <loc>http://newdee.cf/posts/5e4725d8/</loc>
-    <lastmod>2017-09-29T13:12:50.928Z</lastmod>
-    <data>
-        <display>
-        <title>子夜</title>
-        <pubTime>2011-10-22T02:01:12.000Z</pubTime>
-        
-        <tag>日常</tag>
-         
-        <tag>心情</tag>
-         
-         
-           
-             
-              <breadCrumb title="乱体诗" url="http://newdee.cf/categories/%E4%B9%B1%E4%BD%93%E8%AF%97/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://newdee.cf/posts/e091e5ba/</loc>
     <lastmod>2017-09-29T13:12:50.928Z</lastmod>
     <data>
@@ -1264,6 +1242,28 @@
            
              
               <breadCrumb title="随笔" url="http://newdee.cf/categories/%E9%9A%8F%E7%AC%94/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://newdee.cf/posts/5e4725d8/</loc>
+    <lastmod>2017-09-29T13:12:50.928Z</lastmod>
+    <data>
+        <display>
+        <title>子夜</title>
+        <pubTime>2011-10-22T02:01:12.000Z</pubTime>
+        
+        <tag>日常</tag>
+         
+        <tag>心情</tag>
+         
+         
+           
+             
+              <breadCrumb title="乱体诗" url="http://newdee.cf/categories/%E4%B9%B1%E4%BD%93%E8%AF%97/"/>
           
         </display>
     </data>
@@ -1316,36 +1316,12 @@
 
     
   <url>
-    <loc>http://newdee.cf/posts/dc21e617/</loc>
+    <loc>http://newdee.cf/posts/179dffb0/</loc>
     <lastmod>2017-09-29T13:12:50.928Z</lastmod>
     <data>
         <display>
-        <title>等</title>
-        <pubTime>2013-06-12T03:26:04.000Z</pubTime>
-        
-        <tag>日常</tag>
-         
-        <tag>心情</tag>
-         
-         
-           
-             
-              <breadCrumb title="呓语" url="http://newdee.cf/categories/%E5%91%93%E8%AF%AD/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-    
-  <url>
-    <loc>http://newdee.cf/posts/66fca25e/</loc>
-    <lastmod>2017-09-29T13:12:50.928Z</lastmod>
-    <data>
-        <display>
-        <title>悼亡词</title>
-        <pubTime>2012-03-24T13:48:17.000Z</pubTime>
+        <title>借月章</title>
+        <pubTime>2013-08-13T17:15:35.000Z</pubTime>
         
         <tag>日常</tag>
          
@@ -1355,6 +1331,30 @@
            
              
               <breadCrumb title="乱体诗" url="http://newdee.cf/categories/%E4%B9%B1%E4%BD%93%E8%AF%97/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+  <url>
+    <loc>http://newdee.cf/posts/7bfdba78/</loc>
+    <lastmod>2017-09-29T13:12:50.928Z</lastmod>
+    <data>
+        <display>
+        <title>OP，随心谁听</title>
+        <pubTime>2011-11-06T07:17:16.000Z</pubTime>
+        
+        <tag>日常</tag>
+         
+        <tag>海贼</tag>
+         
+         
+           
+             
+              <breadCrumb title="呓语" url="http://newdee.cf/categories/%E5%91%93%E8%AF%AD/"/>
           
         </display>
     </data>

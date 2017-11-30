@@ -63,9 +63,9 @@
       <category term="TX1入坑笔记" scheme="http://newdee.cf/categories/TX1%E5%85%A5%E5%9D%91%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="GStreamer" scheme="http://newdee.cf/tags/GStreamer/"/>
-    
       <category term="TX1" scheme="http://newdee.cf/tags/TX1/"/>
+    
+      <category term="GStreamer" scheme="http://newdee.cf/tags/GStreamer/"/>
     
       <category term="视频处理" scheme="http://newdee.cf/tags/%E8%A7%86%E9%A2%91%E5%A4%84%E7%90%86/"/>
     
@@ -143,9 +143,9 @@
       <category term="Linux" scheme="http://newdee.cf/categories/Linux/"/>
     
     
-      <category term="楼赛" scheme="http://newdee.cf/tags/%E6%A5%BC%E8%B5%9B/"/>
-    
       <category term="Linux" scheme="http://newdee.cf/tags/Linux/"/>
+    
+      <category term="楼赛" scheme="http://newdee.cf/tags/%E6%A5%BC%E8%B5%9B/"/>
     
   </entry>
   
@@ -307,9 +307,9 @@
       <category term="Linux" scheme="http://newdee.cf/categories/Linux/"/>
     
     
-      <category term="ffmpeg" scheme="http://newdee.cf/tags/ffmpeg/"/>
-    
       <category term="ubuntu" scheme="http://newdee.cf/tags/ubuntu/"/>
+    
+      <category term="ffmpeg" scheme="http://newdee.cf/tags/ffmpeg/"/>
     
   </entry>
   

@@ -21,8 +21,8 @@
         <category>TX1入坑笔记</category>
       </categories>
       <tags>
-        <tag>GStreamer</tag>
         <tag>TX1</tag>
+        <tag>GStreamer</tag>
         <tag>视频处理</tag>
         <tag>嵌入式开发</tag>
       </tags>
@@ -61,8 +61,8 @@
         <category>Linux</category>
       </categories>
       <tags>
-        <tag>楼赛</tag>
         <tag>Linux</tag>
+        <tag>楼赛</tag>
       </tags>
   </entry>
   <entry>
@@ -143,8 +143,8 @@
         <category>Linux</category>
       </categories>
       <tags>
-        <tag>ffmpeg</tag>
         <tag>ubuntu</tag>
+        <tag>ffmpeg</tag>
       </tags>
   </entry>
   <entry>

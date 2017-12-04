@@ -4,6 +4,8 @@
 
     
     
+    
+    
   <url>
     <loc>http://newdee.cf/posts/24b1a5e1/</loc>
     <lastmod>2017-12-02T04:59:16.487Z</lastmod>
@@ -12,9 +14,9 @@
         <title>GStreamer笔记二: Dynamic Pipeline</title>
         <pubTime>2017-12-01T07:52:43.000Z</pubTime>
         
-        <tag>GStreamer</tag>
-         
         <tag>TX1</tag>
+         
+        <tag>GStreamer</tag>
          
         <tag>Linux</tag>
          
@@ -86,9 +88,9 @@
         <title>GStreamer笔记一: GStreamer Concepts</title>
         <pubTime>2017-12-01T02:30:34.000Z</pubTime>
         
-        <tag>GStreamer</tag>
-         
         <tag>TX1</tag>
+         
+        <tag>GStreamer</tag>
          
         <tag>Linux</tag>
          
@@ -136,9 +138,9 @@
         <title>多媒体框架GStreamer</title>
         <pubTime>2017-11-23T01:54:51.000Z</pubTime>
         
-        <tag>GStreamer</tag>
-         
         <tag>TX1</tag>
+         
+        <tag>GStreamer</tag>
          
         <tag>视频处理</tag>
          
@@ -358,9 +360,9 @@
         <title>FFmpeg常用命令</title>
         <pubTime>2017-08-19T07:24:01.000Z</pubTime>
         
-        <tag>ffmpeg</tag>
-         
         <tag>ubuntu</tag>
+         
+        <tag>ffmpeg</tag>
          
          
            
@@ -590,29 +592,6 @@
            
              
               <breadCrumb title="博客" url="http://newdee.cf/categories/%E5%8D%9A%E5%AE%A2/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-  <url>
-    <loc>http://newdee.cf/posts/a0a14ae3/</loc>
-    <lastmod>2017-09-29T13:12:50.928Z</lastmod>
-    <data>
-        <display>
-        <title>剧闲词</title>
-        <pubTime>2015-03-29T04:30:08.000Z</pubTime>
-        
-        <tag>日常</tag>
-         
-        <tag>心情</tag>
-         
-         
-           
-             
-              <breadCrumb title="随笔" url="http://newdee.cf/categories/%E9%9A%8F%E7%AC%94/"/>
           
         </display>
     </data>
@@ -1391,7 +1370,6 @@
 
     
     
-    
   <url>
     <loc>http://newdee.cf/posts/48f0e3fe/</loc>
     <lastmod>2017-09-29T13:12:50.928Z</lastmod>
@@ -1428,6 +1406,28 @@
            
              
               <breadCrumb title="笔记" url="http://newdee.cf/categories/%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://newdee.cf/posts/a0a14ae3/</loc>
+    <lastmod>2017-09-29T13:12:50.928Z</lastmod>
+    <data>
+        <display>
+        <title>剧闲词</title>
+        <pubTime>2015-03-29T04:30:08.000Z</pubTime>
+        
+        <tag>日常</tag>
+         
+        <tag>心情</tag>
+         
+         
+           
+             
+              <breadCrumb title="随笔" url="http://newdee.cf/categories/%E9%9A%8F%E7%AC%94/"/>
           
         </display>
     </data>
